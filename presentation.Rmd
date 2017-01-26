@@ -20,7 +20,7 @@ library(plotly)
 ## Slide with Plot
 ====================================
 ```{r, echo=FALSE}
-p <- plot_ly(diamonds, x = ~cut, y = ~clarity) 
+p <- plot_ly(cars, x = ~speed, y = ~dist) 
 p
 ```
 
